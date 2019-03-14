@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "251279598794",
+    "firebase_url": "https://dibus-35810.firebaseio.com",
+    "project_id": "dibus-35810",
+    "storage_bucket": "dibus-35810.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251279598794:android:462cd5963c422ec1",
+        "android_client_info": {
+          "package_name": "com.example.muhammadnabeelkhan.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251279598794-bv1o7fqeplvam270nqigupsm3rqepdel.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.muhammadnabeelkhan.myapplication",
+            "certificate_hash": "c26ba8fc45c650a627503b458a0dde04776a437a"
+          }
+        },
+        {
+          "client_id": "251279598794-21ij5a9jlpghaagu91gme2babf6q4dlm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpfyP3jyJiT1d_JYibzFBKArCn9427B5A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251279598794-21ij5a9jlpghaagu91gme2babf6q4dlm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

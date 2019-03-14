@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">TSD Panel</string>
+    <string name="register"><b><i>Login</i></b></string>
+    <string name="main"><b><i>Login as a</i></b></string>
+    <string name="main2"><b>↓</b></string>
+    <string name="main3"><b>Home Page</b></string>
+    <string name="main66"><b><i>Profile</i></b></string>
+    <string name="main4"><b>[Driver Section]</b></string>
+    <string name="main5"><b>↴</b></string>
+    <string name="title_activity_drawer">Home [Driver]</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Welcome</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="trips">Trips</string>
+    <string name="profile">Profile</string>
+    <string name="welcome">Main Menu</string>
+    <string name="main61"><b><i>Name :</i></b></string>
+    <string name="main62"><b><i>ID :</i></b></string>
+    <string name="main63"><b><i>CNIC :</i></b></string>
+    <string name="main64"><b><i>City :</i></b></string>
+    <string name="main65"><b><i>Gender :</i></b></string>
+    <string name="main67"><b><i>Password :</i></b></string>
+    <string name="main68"><b><i>Phone :</i></b></string>
+
+    <string name="one"><b><i>Trip Details</i></b></string>
+    <string name="two"><b><i>Trip ID :</i></b></string>
+    <string name="three"><b><i>Source :</i></b></string>
+    <string name="four"><b><i>Destination :</i></b></string>
+    <string name="five"><b><i>Dep. Time :</i></b></string>
+    <string name="six"><b><i>Dep. Date :</i></b></string>
+    <string name="seven"><b><i>Arr. Time :</i></b></string>
+    <string name="eight"><b><i>Arr. Date :</i></b></string>
+    <array name="names">
+        <item>123</item>
+        <item>456</item>
+    </array>
+</resources>

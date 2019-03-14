@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TripDetail"
+    android:background="@drawable/as">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/one"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="152dp"
+        android:text="@string/two"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignTop="@+id/textView3"
+        android:text="Trip ID"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="195dp"
+        android:text="@string/three"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignTop="@+id/textView15"
+        android:text="Source"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="239dp"
+        android:text="@string/four"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignTop="@+id/textView9"
+        android:text="Destination"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="247dp"
+        android:text="@string/five"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignTop="@+id/textView4"
+        android:text="Dep. Time"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="204dp"
+        android:text="@string/six"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignTop="@+id/textView7"
+        android:text="Dep. Date"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="160dp"
+        android:text="@string/seven"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignTop="@+id/textView6"
+        android:text="Arr. Time"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="114dp"
+        android:text="@string/eight"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignTop="@+id/textView5"
+        android:text="Arr. Date"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/main5"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:topLeftRadius="10dp"
+        android:typeface="serif" />
+
+
+</RelativeLayout>

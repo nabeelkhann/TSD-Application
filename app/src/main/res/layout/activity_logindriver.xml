@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".logindriver"
+    android:background="@drawable/as">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="85dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/register"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:typeface="serif"/>
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="257dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="232dp"
+        android:background="@drawable/edit"
+        android:hint="Password"
+        android:text="12345" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="258dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/edit"
+        android:hint="id"
+        android:text="yasir443"
+        android:visibility="visible" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="219dp"
+        android:background="@drawable/log"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Login"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        android:id="@+id/btt"
+        android:onClick="Home"/>
+
+
+</RelativeLayout>
