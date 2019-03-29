@@ -191,5 +191,20 @@
         android:topLeftRadius="10dp"
         android:typeface="serif" />
 
+    <Button
+        android:id="@+id/btt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/log"
+        android:layout_alignParentLeft="true"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:onClick="Maps"
+        android:text="Start Trip"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+
 
 </RelativeLayout>

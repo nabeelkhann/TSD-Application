@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -70,5 +71,14 @@ public class TripDetail extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "The read failed: " + databaseError.getCode(), Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    public void Maps (View view){
+        Intent intent = new Intent(TripDetail.this, StartTrip.class);
+        Bundle extras = new Bundle();
+        extras.putString("Source",sourcee);
+        extras.putString("Destination",des);
+        intent.putExtras(extras);
+        startActivity(intent);
     }
 }

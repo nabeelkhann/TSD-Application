@@ -1,5 +1,6 @@
 package com.example.muhammadnabeelkhan.myapplication;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
@@ -38,10 +39,16 @@ public class logindriver extends AppCompatActivity {
         id = (EditText)findViewById(R.id.editText8);
         pass = (EditText)findViewById(R.id.editText9);
 
-
     }
     public void Home(View view) {
 
+        final ProgressDialog progressDialog = new ProgressDialog(this);
+        progressDialog.setTitle("Sign in");
+        progressDialog.setMessage("Loading...");
+        progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        progressDialog.show(); // Display Progress Dialog
+        progressDialog.setCancelable(false);
+        
         final String idd = id.getText().toString();
         final String passs = pass.getText().toString();
 
@@ -65,6 +72,7 @@ public class logindriver extends AppCompatActivity {
                         }
                     }
                     if(i==1){
+                        progressDialog.dismiss();
                         Intent intent = new Intent(logindriver.this, DrawerActivity.class);
                         intent.putExtra("DriverID",gettt);
                         startActivity(intent);
